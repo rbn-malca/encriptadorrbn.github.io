@@ -1,0 +1,176 @@
+@charset "UTF-8";
+/*css document*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
+body {
+  background: #F3F5FC;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding-top: 10px;
+}
+
+.container{
+  margin: auto;
+  width: 960px;
+  height: 650px;
+  padding: 5px;
+ /* background:rgb(222, 183, 183);*/
+}
+
+.logo{
+  width: 100%;
+  float: left;
+  /*background: rgb(243, 243, 2);*/
+}
+
+.left{ /*div Isquierdo*/
+  float: left;
+  width: 630px;
+  height: 420px;
+  border-radius: 24px;
+  /*background: rgb(246, 4, 4);*/
+}
+
+.rigth{ /*div derecho*/
+  margin-top: 18px;
+  float: right;
+  width: 320px;
+  height: auto;
+  border-radius: 24px;
+  background: lightgrey;
+}
+
+
+.logoimg{
+  margin-top: 1%;
+  margin-left:5% ;
+  float: inherit;
+}
+
+.title{
+  float: inherit;
+  margin-left: 20%;
+  font-family: 'DynaPuff', cursive;
+  color: #21519e;
+    /*font-size: 1.5em;*/
+}
+
+.mensajeIsquierdo { /*text area izquierdo*/
+  float: left;
+  border: dashed 1px #fff;
+  background: #fff;
+  border-radius: 20px;
+  width: 570px;
+  height: 360px;
+  margin-left: 18px;
+  margin-top: 30px;
+  padding: 8px;
+  color: #0A3871;
+  font-size: 19px;
+}
+
+.mensajeDerecho { /*text area derecho*/
+
+  float: right;
+  border: dashed 1px #fff;
+  background: #fff;
+  border-radius: 20px;
+  width: 280px;
+  height: 170px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 8px;
+  color: #0A3871;
+  font-size: 19px;
+}
+
+#imgDer{ /*muñeco*/
+  margin-top: 20%;
+  width: 90%;
+  height: auto;
+  margin-left: 2%;
+}
+
+.Texto{ /*texto del muñeco*/
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 18px;
+}
+
+
+.left-button {
+  /* div donde estan los botones encriptar / desencriptar 640 */
+  margin-top: 10px;
+  float: left;
+  width: 630px;
+  height: 150px;
+  border-radius: 24px;
+ /* background: palevioletred;*/
+}
+
+.aviso{
+  margin: 10px 15px;
+}
+
+.encriptar { /*boton*/
+  width: 50%;
+  height: 17px;
+}
+
+
+
+.encriptar:hover { 
+  opacity: 0.7;
+  /*0 total transparente y el 1 totalmente opaco*/
+}
+
+.desencriptar { /*boton*/
+  width: 50%;
+  height: 17px;
+
+  /*no utilizar indiscriminadamente * no es compatible con float*/
+
+  /*top , bottom , raight , left*/
+}
+
+.desencriptar:hover {
+  opacity: 0.7;
+  /*0 total transparente y el 1 totalmente opaco*/
+}
+
+.enc{
+  width: 48%;
+  height: 70px;
+}
+
+.desen{
+  width: 48%;
+  height: 70px;
+}
+
+#copiar{
+  margin-left: 33%;
+  margin-top: 90%;
+  padding: 24px;
+  width: 40%;
+  height: 10%;
+  background: #D8DFE8;
+  border-radius: 24px;
+  display: none;
+}
+
+
+.pie {
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  height: 20px;
+  background: yellow;
+  bottom: 0;
+}

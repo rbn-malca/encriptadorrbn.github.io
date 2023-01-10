@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador RBN </title>
+  <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+
+<body>
+
+  <div class="container">
+
+    <div class="logo">
+      <img class="logoimg" src="images/Logo.png" alt="">
+      <h1 class="title">Encriptador de mensajes</h1> 
+    </div>
+
+    <div class="left">
+     
+      <textarea id="inputTexto" name="mensaje" class="mensajeIsquierdo" placeholder="Ingrese el texto aqui..."></textarea>
+
+    </div>
+
+<!-- <br class="clearfloat" /> romper la herencia anterior -->
+    <div class="rigth">
+            <img src="images/Persona.png" id="imgDer" alt="">
+            <h1 id="Texto" class="Texto" >Ningún mensaje fue encontrado</h1>
+
+            <textarea id="mensaje2" name="mensaje" class="mensajeDerecho" placeholder="Visualizacion del texto encriptado/desencriptado...  "></textarea>
+
+            <button onclick="copiar()" id="copiar" type="button" name="button" >Copiar</button>
+
+    </div>
+
+    <div class="left-button">
+      <p class="aviso">*Solo minusculas y sin acentos</p>
+      <a href="#" onclick="encriptar()" class="encriptar"  title=""> <img src="images/btn.png" alt="" class="enc"> </a>
+      <a href="#" onclick="desencriptar()" class="desencriptar"  title=""> <img src="images/btndesenc.png" class="desen"> </a>
+    </div>
+
+  </div>
+
+  <canvas width="80" height="10" id="canvas"></canvas>
+<!--<canvas width="80" height="10" id="canvas"></canvas> -->
+  <div class="pie">
+<footer>
+  <p> © Copyrigth  RUBEN SANCHEZ MALCA</p>
+</footer>
+</div>
+
+
+
+  <script type="text/javascript" src="js/encriptador.js"> </script>
+  <script src="js/particulas.js"></script>
+
+</body>
+
+</html>
